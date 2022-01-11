@@ -26,6 +26,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
 }
 
+p {
+  margin-top: 0;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -135,6 +139,15 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   text-transform: uppercase;
 }
+.btn--size--small {
+  display: inline-block;
+  border-radius: 35px;
+  padding: 16px 41px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+}
 
 .btn--color--red {
   background: #FF5500;
@@ -165,6 +178,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .section {
   margin-bottom: 174px;
+}
+
+.section__news {
+  margin-bottom: 143px
 }
 
 .section__title {
@@ -347,4 +364,52 @@ h1, h2, h3, h4, h5, h6 {
 } 
 
 
+.about::before{
+  content: "";
+  width: 490px;
+  height: 505px;
+  background: url(./img/cameraman.png) center center / cover no-repeat;
+}
+
+.about__desc {
+  background: #FFFFFF;
+  border-radius: 5px;
+  padding: 69px 81px;
+  width: 785px;
+  height: 455px;
+  margin-left: -140px;
+  margin-top: 97px
+}
+
+.about::before, .about__desc {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.about__title {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.about__desc-text {
+  color: #060606;
+  margin-bottom: 42px;
+  line-height: 1.6;
+}
+
+.about__desc-text p {
+  margin-bottom: 72px;
+}
+
+.about__desc-text  p:last-child {
+  margin-bottom: 0;
+}
+
+
+
 /*  https://loftschool.com/dashboard/stream/515/module/536/video/1074 */
+
+

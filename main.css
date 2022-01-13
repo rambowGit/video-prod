@@ -36,6 +36,10 @@ p {
 
 /*main page index.html*/
 
+.main-page-wrapper {
+  background: url("./img/hero.png") center top no-repeat, url("./img/bottom-pic.png") center bottom 338px no-repeat;
+}
+
 .hero {
   margin-bottom: 232px;
 }
